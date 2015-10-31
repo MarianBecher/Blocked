@@ -1,0 +1,13 @@
+D:\Projekte\Unity\Blocked\obj\Debug\Assembly-CSharp-vs.csprojResolveAssemblyReference.cache
+D:\Projekte\Unity\Blocked\Temp\bin\Debug\Assembly-CSharp.dll
+D:\Projekte\Unity\Blocked\Temp\bin\Debug\Assembly-CSharp.pdb
+D:\Projekte\Unity\Blocked\Temp\bin\Debug\UnityEditor.dll
+D:\Projekte\Unity\Blocked\Temp\bin\Debug\UnityEngine.dll
+D:\Projekte\Unity\Blocked\Temp\bin\Debug\UnityEngine.UI.dll
+D:\Projekte\Unity\Blocked\Temp\bin\Debug\Mono.Cecil.dll
+D:\Projekte\Unity\Blocked\Temp\bin\Debug\Unity.SerializationLogic.dll
+D:\Projekte\Unity\Blocked\Temp\bin\Debug\Unity.DataContract.dll
+D:\Projekte\Unity\Blocked\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+D:\Projekte\Unity\Blocked\Temp\bin\Debug\Unity.CecilTools.dll
+D:\Projekte\Unity\Blocked\obj\Debug\Assembly-CSharp.dll
+D:\Projekte\Unity\Blocked\obj\Debug\Assembly-CSharp.pdb
