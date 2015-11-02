@@ -9,18 +9,24 @@ public class PlayerController2D : MonoBehaviour
 {
     private PlatformerMotor2D _motor;
     public bool active = false;
+    private CharacterSelector container;
 
     // Use this for initialization
     void Start()
     {
         _motor = GetComponent<PlatformerMotor2D>();
+        container = GameObject.Find("Character_Container").GetComponent<CharacterSelector>();
+        container.rigisterNewCharacter(this);
     }
 
     // Update is called once per frame
     void Update()
     {
         if (!active)
+        {
+            _motor.normalizedXMovement = 0;
             return;
+        }
 
         if (Mathf.Abs(Input.GetAxis(PC2D.Input.HORIZONTAL)) > PC2D.Globals.INPUT_THRESHOLD)
         {
