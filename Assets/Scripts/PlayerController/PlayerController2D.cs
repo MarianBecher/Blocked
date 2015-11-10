@@ -9,7 +9,7 @@ public class PlayerController2D : MonoBehaviour
 {
     private PlatformerMotor2D _motor;
     public bool active = false;
-    private CharacterSelector container;
+    protected CharacterSelector container;
 
     // Use this for initialization
     void Start()
@@ -58,5 +58,10 @@ public class PlayerController2D : MonoBehaviour
         {
             _motor.Dash();
         }
+    }
+
+    public CharacterSelector getContainer()
+    {
+        return this.container;
     }
 }
